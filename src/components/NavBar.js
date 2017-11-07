@@ -16,6 +16,12 @@ const NavBar = props => {
       >
         Movies
       </NavLink>
+      <NavLink 
+        style={{ marginRight: '20px' }} 
+        to="/movies/new"
+      >
+        Add New Movie
+      </NavLink>
     </div>
   );
 }
